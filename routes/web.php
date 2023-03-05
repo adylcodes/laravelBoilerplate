@@ -15,3 +15,4 @@ use App\Http\Controllers\Admin\loginController;
 */
 
 Route::get('/', [LoginController::class,'index']);
+Route::get('/login', [LoginController::class,'login'])->name('login');
